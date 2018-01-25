@@ -1,12 +1,13 @@
 ---
-title: How to Customize list item queries and filter data for Windows Phone apps
+title: Customize list item queries and filter data for Windows Phone apps
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: 32f89b97-8274-4cb0-9164-7898735a18aa
 ---
 
 
-# How to: Customize list item queries and filter data for Windows Phone apps
+# Customize list item queries and filter data for Windows Phone apps
+
 Customize the data queries on which the views in a Windows Phone app are based.
 With projects created from the Windows Phone SharePoint List Application template, developers can take advantage of a design pattern implemented in the template that allows them to customize parts of the data layer for a Windows Phone app. A view of a SharePoint list in a Windows Phone app can be configured in Microsoft SharePoint Server and included as is in the app on the phone, or a custom view can be created for the app.
   
@@ -202,8 +203,8 @@ static Dictionary<string, string> ViewXmls = new Dictionary<string, string>()
 ```
 
 
-    > **Note:**
-      >  In particular that the value of the **Name** attribute ("View2") of the **PivotItem** control is the same as the key value of the entry added to the **Dictionary** type defined in step 2. This value is used to identify the appropriate CAML query to use to retrieve the data to be displayed in the **PivotItem**. Also note that the **ListBox** declared here (named "lstBox2" simply to distinguish it from the **ListBox** for the default view) is also bound to the view.
+    > [!NOTE]
+    > In particular that the value of the **Name** attribute ("View2") of the **PivotItem** control is the same as the key value of the entry added to the **Dictionary** type defined in step 2. This value is used to identify the appropriate CAML query to use to retrieve the data to be displayed in the **PivotItem**. Also note that the **ListBox** declared here (named "lstBox2" simply to distinguish it from the **ListBox** for the default view) is also bound to the view.
 
     
     
@@ -249,7 +250,7 @@ You can make many other customizations both to the CAML queries on which views a
     
     
 
-## Additional resources
+## See also
 <a name="SP15Custlistitem_addlresources"> </a>
 
 

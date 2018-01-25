@@ -1,12 +1,13 @@
 ---
-title: How to Create an external list using an OData data source in SharePoint
+title: Create an external list using an OData data source in SharePoint
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: 601fbfce-a0c6-43dd-8398-540d094c083c
 ---
 
 
-# How to: Create an external list using an OData data source in SharePoint
+# Create an external list using an OData data source in SharePoint
+
 Learn how to create an external list programmatically and bind it to an OData-based external content type in SharePoint.
 Although a power user or SharePoint administrator will likely create an external list using SharePoint Designer 2013, a developer will be interested in the ability to create external lists using the tools of their trade, Visual Studio 2012 and the Office Developer Tools for Visual Studio 2012. This gives them more flexibility to add functionality and to package a solution that includes Business Connectivity Services (BCS) features for later deployment into one or many host environments.
   
@@ -61,10 +62,7 @@ The following articles provide information about SharePoint Add-ins and other ba
 
 The following procedures will show you how to create a new external list, bind it to OData-based external content type, and publish to SharePoint using Visual Studio 2012.
   
-    
-    
-
-> **Note:**
+> [!NOTE]
 > The first step assumes that you have successfully created an external content type, as described in  [How to: Create an external content type from an OData source in SharePoint](how-to-create-an-external-content-type-from-an-odata-source-in-sharepoint.md). 
   
     
@@ -110,7 +108,7 @@ For testing purposes, you may want to modify the AppManifest.xml file so that th
     
   
 
-## Additional resources
+## See also
 <a name="bkmk_AdditionalResources"> </a>
 
 

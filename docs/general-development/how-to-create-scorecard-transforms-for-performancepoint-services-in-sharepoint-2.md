@@ -5,8 +5,10 @@ ms.prod: sharepoint
 ---
 
 
-# How to: Create scorecard transforms for PerformancePoint Services in SharePoint
+# Create scorecard transforms for PerformancePoint Services in SharePoint
+
 Learn how to create custom scorecard transforms for PerformancePoint Services in SharePoint.
+
 ## What are scorecard transforms in PerformancePoint Services?
 <a name="bk_intro"> </a>
 
@@ -150,10 +152,7 @@ namespace Microsoft.PerformancePoint.SDK.Samples.ScorecardTransforms.PreQuery
 
 The following code example creates a **PreQuery** transform that applies a grey background color to empty scorecard cells.
   
-    
-    
-
-> **Note:**
+> [!NOTE]
 > Before you can compile this code example, you must configure your development environment as described in  [Create transforms for PerformancePoint Services scorecards](#BKMK_CreateClass). In addition, you must add a reference to the **System.Drawing** assembly to your project.
   
     
@@ -225,7 +224,7 @@ namespace Microsoft.PerformancePoint.SDK.Samples
 ```
 
 
-## Additional resources
+## See also
 <a name="bk_addResources"> </a>
 
 

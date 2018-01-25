@@ -1,12 +1,13 @@
 ---
-title: How to Store and retrieve SharePoint list items on a Windows Phone
+title: Store and retrieve SharePoint list items on a Windows Phone
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: 14ca37a2-5b45-430d-9004-ff3016f89834
 ---
 
 
-# How to: Store and retrieve SharePoint list items on a Windows Phone
+# Store and retrieve SharePoint list items on a Windows Phone
+
 Learn about the Windows Phone application life cycle and storing network data locally.
 One of the most important considerations in the development of Windows Phone apps is the management of state information, both for the overall application and for individual pages or data items within the application. If you're developing Windows Phone apps, you must take into account that users of your apps might lose connectivity to network resources (such as SharePoint lists). The development infrastructure for Windows Phone apps provides mechanisms for handling state information at various stages in the life cycle of an app.
   
@@ -711,8 +712,9 @@ namespace SPListAppLocalStorage
   
 11. In the browser that opens, navigate to the folder in which the standard Windows Phone icon images were installed by the Windows Phone SDK 7.1.
     
-    > **Note:**
-      > The images with a light foreground and a dark background are in  `%PROGRAMFILES%(x86)\\Microsoft SDKs\\Windows Phone\\v7.1\\Icons\\dark` in a standard installation of the SDK.
+    > [!NOTE]
+    > The images with a light foreground and a dark background are in  `%PROGRAMFILES%(x86)\\Microsoft SDKs\\Windows Phone\\v7.1\\Icons\\dark` in a standard installation of the SDK.
+
 12. Choose the image file named appbar.back.rest.png, and choose **Add**. The image is added to the project under the **Images** node.
     
   
@@ -811,8 +813,9 @@ private void OnSaveDraftButtonClick(object sender, EventArgs e)
   
 5. In the browser that opens, navigate to the folder in which the standard Windows Phone icon images were installed by the Windows Phone SDK 7.1.
     
-    > **Note:**
-      > The images with a light foreground and a dark background are in  `%PROGRAMFILES%(x86)\\Microsoft SDKs\\Windows Phone\\v7.1\\Icons\\dark` in a standard installation of the SDK.
+    > [!NOTE]
+    > The images with a light foreground and a dark background are in  `%PROGRAMFILES%(x86)\\Microsoft SDKs\\Windows Phone\\v7.1\\Icons\\dark` in a standard installation of the SDK.
+
 6. Choose the image file named appbar.folder.rest.png, and then choose **Add**. 
     
     The image is added is added to the project under the **Images** node.
@@ -914,7 +917,7 @@ Notice the similarity between the Draft Item Edit form (Figure 4) and the standa
     
     
 
-## Additional resources
+## See also
 <a name="SP15StoreSPlist_addlresources"> </a>
 
 

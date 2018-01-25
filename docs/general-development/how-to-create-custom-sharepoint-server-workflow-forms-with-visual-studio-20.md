@@ -1,22 +1,20 @@
-﻿---
-title: How to Create Custom SharePoint Workflow Forms with Visual Studio 2012
+---
+title: Create custom SharePoint workflow forms with Visual Studio 2012
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: 26873259-330c-493f-b935-297a7a5a086d
 ---
 
 
-# How to: Create Custom SharePoint Workflow Forms with Visual Studio 2012
+# Create custom SharePoint workflow forms with Visual Studio 2012
+
 Presents workflow forms in SharePoint. This article uses SharePoint with the March 2013 Public Update applied and Office Developer tools for Visual Studio 2012. Everything in this article applies to both SharePoint on-premises deployments as well as Office 365.
- **Provided by:** [Andrew Connell](http://social.msdn.microsoft.com/profile/andrew%20connell%20%5bmvp%5d/),  [www.AndrewConnell.com](http://www.andrewconnell.com)
-  
-    
-    
+
+**Provided by:** [Andrew Connell](http://social.msdn.microsoft.com/profile/andrew%20connell%20%5bmvp%5d/),  [www.AndrewConnell.com](http://www.andrewconnell.com)
 
 Since the release of Microsoft SharePoint 2007, the SharePoint platform has supported using workflows to automate business processes. The SharePoint workflow platform is built on the Windows Workflow Foundation, which is part of the .NET Framework. While the Workflow Foundation provides many capabilities for authoring custom workflows and managing automated business processes, SharePoint also adds end-user integration. This integration is implemented in two parts: 
 - **Tasks** assigned to users and groups that can be created and monitored by the workflows.
-    
-  
+
 - **Forms** that collect information from users when workflows are associated with a type of content (for example, a site, list, or library) or when a workflow is started.
     
   
@@ -460,9 +458,7 @@ When you added the new initiation form to the project, Visual Studio 2012 automa
   
 - Update the default JavaScript block to pull the user-input values from the form and match the property names to the names of the arguments that we created in the workflow.
     
-  
-
-> **Note:**
+> [!NOTE]
 > In the source file, note that first ASP.NET content placeholder, **PlaceHolderAdditionalPageHead**, contains references to the Workflow Services CSOM library ( **sp.workflowservices.js** ) and the core SharePoint CSOM libraries ( **sp.js** and **sp.runtime.js** ). Immediately following this section of code, there is a server-side comment that contains a commented note. Be mindful that this note, shown in Figure 10, is irrelevant and should be ignored.
   
     
@@ -657,7 +653,7 @@ SharePoint introduced several improvements to workflows. This article detailed t
     
     
 
-## Additional Resources
+## See also
 <a name="sec7"> </a>
 
 

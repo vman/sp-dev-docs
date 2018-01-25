@@ -1,13 +1,15 @@
 ---
-title: How to Create and delete posts and retrieve the social feed by using the .NET client object model in SharePoint
+title: Create and delete posts and retrieve the social feed by using the .NET client object model in SharePoint
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: c8d68632-1b55-454c-961a-f3ddad731bf6
 ---
 
 
-# How to: Create and delete posts and retrieve the social feed by using the .NET client object model in SharePoint
+# Create and delete posts and retrieve the social feed by using the .NET client object model in SharePoint
+
 Learn how to create and delete microblog posts and retrieve social feeds by using the SharePoint .NET client object model.
+
 ## What are social feeds in SharePoint?
 <a name="bk_intro"> </a>
 
@@ -36,9 +38,7 @@ To create a console application that uses the .NET client object model to work w
   
 - **Full Control** access permissions to the User Profile service application for the logged-on user
     
-  
-
-> **Note:**
+> [!NOTE]
 > If you are not developing on the computer that is running SharePoint, get the  [SharePoint Client Components](http://www.microsoft.com/en-us/download/details.aspx?id=35585) download that contains SharePoint client assemblies.
   
     
@@ -99,9 +99,7 @@ The following code example publishes a post and a reply from the current user. I
   
 - Reply to a post by using the  [CreatePost](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.CreatePost.aspx) method and passing the thread identifier as the _targetId_ parameter.
     
-  
-
-> **Note:**
+> [!NOTE]
 > Change the placeholder value for the **serverUrl** variable before you run the code.
   
     
@@ -226,10 +224,7 @@ The following code example retrieves feeds for the current user and a target use
   
 For more information about feed types, see  [Overview of feed types](work-with-social-feeds-in-sharepoint.md#bkmk_FeedTypes). For more information about reference threads, see  [Reference threads and digest threads in SharePoint social feeds](reference-threads-and-digest-threads-in-sharepoint-server-social-feeds.md).
   
-    
-    
-
-> **Note:**
+> [!NOTE]
 > Change the placeholder values for the **serverUrl** and **targetUser** variables before you run the code.
   
     
@@ -351,9 +346,7 @@ The following code example deletes a post or a reply from the current user's per
   
 - Delete a root post, reply, or thread by using the  [DeletePost](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.DeletePost.aspx) method (deleting a root post deletes the whole thread).
     
-  
-
-> **Note:**
+> [!NOTE]
 > Change the placeholder value for the **serverUrl** variable before you run the code.
   
     
@@ -474,7 +467,7 @@ namespace SocialFeedCSOM
     
     
 
-## Additional resources
+## See also
 <a name="bk_addResources"> </a>
 
 

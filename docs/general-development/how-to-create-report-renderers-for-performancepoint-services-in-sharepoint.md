@@ -6,8 +6,10 @@ ms.prod: sharepoint
 
 
 
-# How to: Create report renderers for PerformancePoint Services in SharePoint
+# Create report renderers for PerformancePoint Services in SharePoint
+
 Learn how to create the renderer component in a custom report extension for PerformancePoint Services.
+
 ## What are custom report renderers for PerformancePoint Services?
 <a name="bk_intro"> </a>
 
@@ -266,7 +268,7 @@ After you create a report renderer and a report editor (including its user inter
     
     
 
-## Additional resources
+## See also
 <a name="bk_addResources"> </a>
 
 

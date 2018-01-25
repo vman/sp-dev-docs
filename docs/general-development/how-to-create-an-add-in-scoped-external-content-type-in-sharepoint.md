@@ -1,13 +1,15 @@
 ---
-title: How to Create an add-in-scoped external content type in SharePoint
+title: Create an add-in-scoped external content type in SharePoint
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: de4b50a3-84da-48ce-9ba0-fe06571e52a8
 ---
 
 
-# How to: Create an add-in-scoped external content type in SharePoint
+# Create an add-in-scoped external content type in SharePoint
+
 Learn how to create external content types that can be installed, secured, and used in an SharePoint Add-in.
+
 ## Prerequisites for developing add-in-scoped external content types
 <a name="bkmk_Prerequisites"> </a>
 
@@ -83,8 +85,9 @@ For complete steps for creating SharePoint Add-ins, see the following:
     
     Specify a name for your OData source.
     
-    > **Note:**
-      > For this example, you will use the Northwind service that is available from the producers list located on the  [Open Data Protocol website](http://www.odata.org). 
+    > [!NOTE]
+    > For this example, you will use the Northwind service that is available from the producers list located on the  [Open Data Protocol website](http://www.odata.org). 
+
 3. A list appears showing data entities that are being exposed by the OData Service. Select one or more of the entities, and choose **Finish**.
     
   
@@ -96,7 +99,7 @@ For complete steps for creating SharePoint Add-ins, see the following:
     
   
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 

@@ -1,13 +1,15 @@
 ---
-title: How to Create an OData data service for use as a BCS external system
+title: Create an OData data service for use as a BCS external system
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: 7d7b3aa6-85b7-400d-8ea5-50bebac56a1d
 ---
 
 
-# How to: Create an OData data service for use as a BCS external system
+# Create an OData data service for use as a BCS external system
+
 Learn how to create an Internet-addressable WCF service that uses OData to send notifications to SharePoint when the underlying data changes. These notifications are used to trigger events that are attached to external lists.
+
 This article describes how to create an ASP.NET Windows Communication Foundation (WCF) Data Service to expose the AdventureWorks 2012 LT sample database. This enables you to access the data through the Open Data protocol (OData). When access is established through OData, you can configure a Business Connectivity Services (BCS) external content type that will enable SharePoint to consume the data from the external database. To further enhance this OData source, you can add service contracts to the WCF service that will enable BCS to subscribe to notifications that indicate that the external data has changed.
   
     
@@ -203,8 +205,9 @@ By default, when a WCF service is created, it cannot be accessed due to its secu
 
     This enables authorized clients to have read and write access to resources for the specified entity sets.
     
-    > **Note:**
-      > Any client that can access the ASP.NET application can also access the resources that are exposed by the data service. In a production data service, to prevent unauthorized access to resources, you should also secure the application itself. For more information, see  [Securing WCF Data Services](http://msdn.microsoft.com/en-us/library/dd728284.aspx). 
+    > [!NOTE]
+    > Any client that can access the ASP.NET application can also access the resources that are exposed by the data service. In a production data service, to prevent unauthorized access to resources, you should also secure the application itself. For more information, see  [Securing WCF Data Services](http://msdn.microsoft.com/en-us/library/dd728284.aspx). 
+
 For BCS to receive notifications, there must be a mechanism on the back-end data source that will accept a request to be added and removed from notification subscriptions. 
   
     
@@ -225,8 +228,8 @@ public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\Sub
 ```
 
 
-    > **Note:**
-      > This file is an XML file that is updated with the new subscriptions. Access to this file will be made by the server process, so make sure you have granted sufficient rights for this file access. > You might also want to create a database solution for storing subscription information. 
+    > [!NOTE]
+    > This file is an XML file that is updated with the new subscriptions. Access to this file will be made by the server process, so make sure you have granted sufficient rights for this file access. > You might also want to create a database solution for storing subscription information. 
 
     Then add the following two **WebGet** methods to handle the subscriptions.
     
@@ -300,7 +303,7 @@ To notify SharePoint that changes have been made, you also need to create a serv
     
     
 
-## Additional resources
+## See also
 <a name="bkmk_Addresources"> </a>
 
 

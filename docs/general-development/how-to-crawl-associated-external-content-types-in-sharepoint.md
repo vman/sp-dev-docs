@@ -1,13 +1,15 @@
 ---
-title: How to Crawl associated external content types in SharePoint
+title: Crawl associated external content types in SharePoint
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: 187ec42e-f749-4e22-abef-1df604143063
 ---
 
 
-# How to: Crawl associated external content types in SharePoint
+# Crawl associated external content types in SharePoint
+
 Learn how to use the search specific properties in the Business Data Connectivity (BDC) service metadata model for crawling associations, and the different user experiences that you can enable.
+
 ## Crawling the associated external content type
 <a name="HowToCrawlAssociations_CrawlingAssociatedExternalTypes"> </a>
 
@@ -80,7 +82,7 @@ To mark an association so that it is crawled as an attachment, add the **Attachm
 ```
 
 
-> **Note:**
+> [!NOTE]
 > You can specify any value for the **AttachmentAccessor** property; Search does not examine this value.
   
     
@@ -106,15 +108,14 @@ To mark an association so that it is crawled as a child external content type, a
 </Association>
 ```
 
-
-> **Note:**
+> [!NOTE]
 > You can specify any value for the **DirectoryLink** property. Search does not examine this value.
   
     
     
 
 
-## Additional resources
+## See also
 <a name="SP15crawlects_addlresources"> </a>
 
 

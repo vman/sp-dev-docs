@@ -1,13 +1,15 @@
 ---
-title: How to Create an external content type from an OData source in SharePoint
+title: Create an external content type from an OData source in SharePoint
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: bc60ea49-c44e-4531-af62-06b8cf77d35d
 ---
 
 
-# How to: Create an external content type from an OData source in SharePoint
+# Create an external content type from an OData source in SharePoint
+
 Learn how to use Visual Studio 2012 to discover a published OData source and create a reusable external content type for use in Business Connectivity Services (BCS) in SharePoint.
+
 ## Prerequisites for creating OData-based external content types
 <a name="bkmk_Prerequisites"> </a>
 
@@ -30,10 +32,7 @@ To create an external content type from an Open Data protocol (OData) source, yo
   
 For information about how to set up your SharePoint development environment, see  [Set up a general development environment for SharePoint](set-up-a-general-development-environment-for-sharepoint.md).
   
-    
-    
-
-> **Note:**
+> [!NOTE]
 > SharePoint Designer 2013 can't be used to autogenerate BDC models from an OData source. You can use Visual Studio 2012 instead. 
   
     
@@ -94,8 +93,9 @@ After the project is created, you use the new autogeneration tooling for OData s
   
 2. The first page of the wizard is used to collect the URL of the data service. On the **Specify OData Source** page, enter the URL of the OData service that you want to connect to. The URL should resemble the following: `http://services.odata.org/Northwind/Northwind.svc/`.
     
-    > **Note:**
-      > You will show the Northwind service that is available from the producers list found on the  [Open Data Protocol website](http://www.odata.org/ecosystem#liveservices). 
+    > [!NOTE]
+    > You will show the Northwind service that is available from the producers list found on the  [Open Data Protocol website](http://www.odata.org/ecosystem#liveservices). 
+
 3. Choose a name for your OData source, and then choose **Next**.
     
   
@@ -165,7 +165,7 @@ For more information, see  [How to: Create an external list using an OData data 
     
     
 
-## Additional resources
+## See also
 <a name="bkmk_Addres"> </a>
 
 

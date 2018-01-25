@@ -1,12 +1,13 @@
 ---
-title: How to Access external data with REST in SharePoint
+title: Access external data by using REST in SharePoint
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: 0663cc8c-a736-434d-9858-6ce12ce7f748
 ---
 
 
-# How to: Access external data with REST in SharePoint
+# Access external data by using REST in SharePoint
+
 Learn how to access external data from SharePoint by using Representational State Transfer (REST) URLs for Business Connectivity Services (BCS).
 This article shows how to set up an external list that retrieves data from an Open Data protocol (OData) source.
   
@@ -199,7 +200,7 @@ Press F5 to deploy the app to SharePoint. Browse to the Default.aspx page in the
     
     
 
-## Additional resources
+## See also
 <a name="bkmk_Addres"> </a>
 
 

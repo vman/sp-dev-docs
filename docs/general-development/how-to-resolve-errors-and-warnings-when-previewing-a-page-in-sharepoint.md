@@ -1,13 +1,15 @@
 ---
-title: How to Resolve errors and warnings when previewing a page in SharePoint
+title: Resolve errors and warnings when previewing a page in SharePoint
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: 03f72f65-b22b-4304-be92-f44ce0619372
 ---
 
 
-# How to: Resolve errors and warnings when previewing a page in SharePoint
+# Resolve errors and warnings when previewing a page in SharePoint
+
 After you convert an HTML file into a SharePoint master page, or after you create a page layout, you can preview that page in the browser. But before you can preview a master page or page layout, you may have to resolve any issues that prevent the server-side preview from rendering your page.
+
 ## Introduction to resolving preview errors
 <a name="Introduction"> </a>
 
@@ -81,10 +83,7 @@ You can also add the HTML Form Web Part or the InfoPath Form Web Part to your pa
 
 For an HTML file to be converted into the corresponding ASP.NET file, the HTML file must be XML-compliant. This error identifies specific markup in your HTML file that is not XML-compliant. Run the HTML file through an XML validator, fix any issues in your HTML editor, save the file, and then refresh the preview.
   
-    
-    
-
-> **Note:**
+> [!NOTE]
 > This requirement overrides some HTML 5 standards. For example, in HTML 5 you can specify the doctype in lowercase, but in XML the doctype must be uppercase. 
   
     
@@ -167,7 +166,7 @@ You see this message when you aren't using a live SharePoint page with which to 
     
     
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 

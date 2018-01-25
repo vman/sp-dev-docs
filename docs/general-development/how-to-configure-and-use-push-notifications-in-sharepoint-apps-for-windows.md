@@ -1,12 +1,13 @@
-﻿---
-title: How to Configure and use push notifications in SharePoint apps for Windows Phone
+---
+title: Configure and use push notifications in SharePoint apps for Windows Phone
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: 68fa2138-86d9-4e35-9c7c-5cd292087b80
 ---
 
 
-# How to: Configure and use push notifications in SharePoint apps for Windows Phone
+# Configure and use push notifications in SharePoint apps for Windows Phone
+
 Create a solution in SharePoint Server for sending push notifications and develop a Windows Phone app for receiving the notifications.
 Using the Microsoft Push Notification Service (MPNS), Windows Phone apps can receive notifications through the Internet of events triggered on Microsoft SharePoint Server. The phone app doesn't have to poll the server for changes to, for example, the items in a list on which the phone app is based. The app can be registered to receive notifications from the server, and an event receiver can initiate a notification and send it to the receiving app for handling. The push notification is relayed to Windows Phone devices by MPNS.
   
@@ -381,10 +382,7 @@ In this code, after an item is added to the list to which the event receiver is 
     
 An empty string is simply being passed as the value of the **toastParam** parameter, which corresponds to the **Param** property in the XML schema for toast notifications. You could use this parameter to specify, for example, a page of the phone app to open when the user clicks the notification in the phone. In the sample phone app developed later in this topic for receiving these notifications from the server, the **Param** property is not used. The List form (List.xaml) in the app is simply opened when the user clicks the notification.
   
-    
-    
-
-> **Note:**
+> [!NOTE]
 > The **Param** property for toast notifications is supported only in Windows Phone OS version 7.1 or greater.
   
     
@@ -1147,8 +1145,9 @@ namespace SPListAppForNotifications
   
 10. Navigate to the folder in which the standard Windows Phone icon images were installed by the Windows Phone SDK 7.1.
     
-    > **Note:**
-      > The images with a light foreground and a dark background are in %PROGRAMFILES%(x86)\\Microsoft SDKs\\Windows Phone\\v7.1\\Icons\\dark in a standard installation of the SDK. 
+    > [!NOTE]
+    > The images with a light foreground and a dark background are in %PROGRAMFILES%(x86)\\Microsoft SDKs\\Windows Phone\\v7.1\\Icons\\dark in a standard installation of the SDK. 
+
 11. Choose the image file named appbar.check.rest.png and click **Add**. The image is added is added to the project under the Images node.
     
   
@@ -1350,7 +1349,7 @@ When you add an item to the Jobs SharePoint list, the code in the event receiver
     
     
 
-## Additional resources
+## See also
 <a name="SP15Configurepushnot_addlresources"> </a>
 
 

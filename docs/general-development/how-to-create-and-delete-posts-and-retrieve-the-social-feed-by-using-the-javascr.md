@@ -1,13 +1,15 @@
 ---
-title: How to Create and delete posts and retrieve the social feed by using the JavaScript object model in SharePoint
+title: Create and delete posts and retrieve the social feed by using the JavaScript object model in SharePoint
 ms.date: 09/25/2017
 ms.prod: sharepoint
 ms.assetid: e8c21960-6ea0-43c0-821e-2db2a0ecec90
 ---
 
 
-# How to: Create and delete posts and retrieve the social feed by using the JavaScript object model in SharePoint
+# Create and delete posts and retrieve the social feed by using the JavaScript object model in SharePoint
+
 Learn how to create and delete microblog posts and retrieve social feeds by using the SharePoint JavaScript object model.
+
 ## What are social feeds in SharePoint?
 <a name="bk_intro"> </a>
 
@@ -120,9 +122,7 @@ The following code example publishes a post and a reply. It shows how to:
   
 - Reply to a post by using the **createPost** method and passing the thread identifier as the _targetId_ parameter.
     
-  
-
-> **Note:**
+> [!NOTE]
 > Paste the following code between the **script** tags that you added in the [Create the application page](how-to-create-and-delete-posts-and-retrieve-the-social-feed-by-using-the-javascr.md#bk_CreateApp) procedure.
   
     
@@ -198,10 +198,7 @@ The following code example retrieves feeds for the current user and a target use
   
 For more information about feed types, see  [Overview of feed types in the My Site Social API](work-with-social-feeds-in-sharepoint.md#bkmk_FeedTypes). For more information about reference threads, see  [Reference threads and digest threads in SharePoint social feeds](reference-threads-and-digest-threads-in-sharepoint-server-social-feeds.md).
   
-    
-    
-
-> **Note:**
+> [!NOTE]
 > Paste the following code between the **script** tags that you added in the [Create the application page](how-to-create-and-delete-posts-and-retrieve-the-social-feed-by-using-the-javascr.md#bk_CreateApp) procedure. Then, change the placeholder value for the **targetUser** variable before you run the code.
   
     
@@ -331,9 +328,7 @@ The following code example deletes a post or a reply. It shows how to:
   
 - Delete a root post or reply by using the **deletePost** method (deleting a root post deletes the whole thread).
     
-  
-
-> **Note:**
+> [!NOTE]
 > Paste the following code between the **script** tags that you added in the [Create the application page](how-to-create-and-delete-posts-and-retrieve-the-social-feed-by-using-the-javascr.md#bk_CreateApp) procedure. This example assumes that the current user's newsfeed contains at least one post.
   
     
@@ -422,7 +417,7 @@ function RequestFailed(sender, args) {
 ```
 
 
-## Additional resources
+## See also
 <a name="bk_addResources"> </a>
 
 
